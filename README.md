@@ -21,6 +21,6 @@ Let us discuss about that. thanks.
 [day-01]: https://github.com/jklim1253/adventofcode/tree/master/Day-01
 [day-01-part-one]: https://github.com/jklim1253/adventofcode/tree/21bf95c6fd5b78e33f319086a5f0d455f95ac0f3/Day-01/day01.cpp
 [day-01-part-two]: https://github.com/jklim1253/adventofcode/tree/c1383cf8414d2f3b60c62918f869d39acbcff885/Day-01/day01.cpp
-[day-02]:
-[day-02-part-one]:
+[day-02]: https://github.com/jklim1253/adventofcode/tree/master/Day-02
+[day-02-part-one]: https://github.com/jklim1253/adventofcode/blob/e5079b29b574444d435a1dacee9c64677e4427af/Day-02/day02.cpp
 [day-02-part-two]:
