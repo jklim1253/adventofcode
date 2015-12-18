@@ -11,13 +11,15 @@ Let us discuss about that. thanks.
 - [x] [Day 01][day-01].
 	- [x] [part one][day-01-part-one].
 	- [x] [part two][day-01-part-two].
-- [ ] [Day 02][day-02].
+- [x] [Day 02][day-02].
 	- [x] [part one][day-02-part-one].
 	- [x] [part two][day-02-part-two].
 - [ ] [Day 03][day-03].
 	- [x] [part one][day-03-part-one].
 	- [ ] [part two][day-03-part-two].
-
+- [ ] Day 04.
+	- [ ] part one.
+	- [ ] part two.
 
 [adventofcode-issue]: https://github.com/jklim1253/adventofcode/issues
 [day-01]: https://github.com/jklim1253/adventofcode/tree/master/Day-01
@@ -26,6 +28,6 @@ Let us discuss about that. thanks.
 [day-02]: https://github.com/jklim1253/adventofcode/tree/master/Day-02
 [day-02-part-one]: https://github.com/jklim1253/adventofcode/blob/e5079b29b574444d435a1dacee9c64677e4427af/Day-02/day02.cpp
 [day-02-part-two]: https://github.com/jklim1253/adventofcode/blob/f09b9d0f896f3f7dc8977c61a37007761a836abe/Day-02/day02.cpp
-[day-03]:
-[day-03-part-one]:
+[day-03]: https://github.com/jklim1253/adventofcode/tree/master/Day-03
+[day-03-part-one]: https://github.com/jklim1253/adventofcode/blob/1c6e9a2c6480524888bd6410b13fbf42e01244b3/Day-03/day03.cpp
 [day-03-part-two]:
