@@ -13,8 +13,10 @@ Let us discuss about that. thanks.
 	- [x] [part two][day-01-part-two].
 - [ ] [Day 02][day-02].
 	- [x] [part one][day-02-part-one].
-	- [ ] [part two][day-02-part-two].
+	- [x] [part two][day-02-part-two].
 - [ ] Day 03.
+	- [ ] part one.
+	- [ ] part two.
 
 
 [adventofcode-issue]: https://github.com/jklim1253/adventofcode/issues
@@ -23,4 +25,4 @@ Let us discuss about that. thanks.
 [day-01-part-two]: https://github.com/jklim1253/adventofcode/tree/c1383cf8414d2f3b60c62918f869d39acbcff885/Day-01/day01.cpp
 [day-02]: https://github.com/jklim1253/adventofcode/tree/master/Day-02
 [day-02-part-one]: https://github.com/jklim1253/adventofcode/blob/e5079b29b574444d435a1dacee9c64677e4427af/Day-02/day02.cpp
-[day-02-part-two]:
+[day-02-part-two]: https://github.com/jklim1253/adventofcode/blob/f09b9d0f896f3f7dc8977c61a37007761a836abe/Day-02/day02.cpp
