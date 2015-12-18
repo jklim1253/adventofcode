@@ -26,23 +26,34 @@ class World {
 	static const char west = '<';
 private :
 	Santa goodman;
+	Santa robot;
 	map<int, set<int>> locations;
 	int houses;
+	bool turn;
 public :
-	World() : houses(0) {}
+	World() : houses(0), turn(true) {}
 	void follow_instruction(istream& is) {
 		// present to the house at his starting location.
 		update_location(goodman);
+		update_location(robot);
 
 		char direction;
 		while (is.get(direction).good()) {
-			if (direction == north) goodman.go_north();
-			else if (direction == south) goodman.go_south();
-			else if (direction == east) goodman.go_east();
-			else if (direction == west) goodman.go_west();
+			if (turn)
+				move(goodman, direction);
+			else
+				move(robot, direction);
 
-			update_location(goodman);
+			turn = !turn;
 		}
+	}
+	void move(Santa& santa, const char& direction) {
+		if (direction == north) santa.go_north();
+		else if (direction == south) santa.go_south();
+		else if (direction == east) santa.go_east();
+		else if (direction == west) santa.go_west();
+
+		update_location(santa);
 	}
 	void update_location(const Santa& santa) {
 		if (locations[santa.getx()].insert(santa.gety()).second)
@@ -67,7 +78,7 @@ int main(int argc, char* argv[]) {
 	World earth;
 	earth.follow_instruction(file);
 
-	cout << "Santa deliver at least one present to "
+	cout << "With Robot, at leat one present to "
 		<< earth.get_houses_count()
 		<< " houses." << endl;
 
